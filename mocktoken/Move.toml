@@ -1,0 +1,12 @@
+[package]
+name = "TurbosToken"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir="crates/sui-framework/packages/sui-framework/", rev = "devnet" }
+
+[addresses]
+turbos_token = "_"
+
+[dev-addresses]
+turbos_token = "0x0"
